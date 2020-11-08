@@ -22,7 +22,7 @@ body,html{
   margin: 0%;
 }
 
-#text-input{
+#first-number, #second-number{
   margin-right: 10px;
   width: 45%;
 }

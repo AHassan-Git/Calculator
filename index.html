@@ -1,26 +1,25 @@
 <!DOCTYPE html>
 <html>
   <head>
-      <script type="text/javascript" src="javascript.js"></script>  
-      <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <div id="input-container">
-        <h6 id="input-title">first number</h6>
-        <h6 id="input-title">second number</h6>
-      <br>
-        <input id="text-input" type="text">
-        <input id="text-input" type="text">
+      <h6 id="input-title">first number</h6>
+      <h6 id="input-title">second number</h6>
+      <br />
+      <input id="first-number" type="text" />
+      <input id="second-number" type="text" />
     </div>
 
     <div id="Operation-Button-Input">
-      <input id="Add" type="radio" name="Operation"> 
+      <input id="Add" class="radio-button" type="radio" name="Operation" />
       <span>Add</span>
-      <input id="Subtract" type="radio" name="Operation"> 
+      <input id="Subtract" class="radio-button" type="radio" name="Operation" />
       <span>Subtract</span>
-      <input id="Multiply" type="radio" name="Operation"> 
+      <input id="Multiply" class="radio-button" type="radio" name="Operation" />
       <span>Multiply</span>
-      <input id="Divide" type="radio" name="Operation"> 
+      <input id="Divide" class="radio-button" type="radio" name="Operation" />
       <span>Divide</span>
     </div>
 
@@ -33,4 +32,7 @@
       <h3 id="result-text"></h3>
     </div>
   </body>
+  <head>
+    <script type="text/javascript" src="javascript.js"></script>
+  </head>
 </html>
