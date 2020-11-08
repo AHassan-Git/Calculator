@@ -1,0 +1,44 @@
+body,html{
+  height:100%;
+  width:100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background:#F0F3F4;
+  flex-direction: column;
+}
+
+#input-container{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+#input-title{
+  display: inline-block;
+  text-align: center;
+  width:48%;
+  margin: 0%;
+}
+
+#text-input{
+  margin-right: 10px;
+  width: 45%;
+}
+
+#Operation-Button-Input{
+  
+}
+
+input[type="radio"]{
+  margin: 15px;
+}
+
+input[type="radio"]:checked + *{
+  font-weight: bold;
+}
+
+button{
+  margin: 10px;
+}
